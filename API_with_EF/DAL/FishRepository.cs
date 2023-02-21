@@ -1,4 +1,4 @@
-﻿using API_with_EF.Models;
+using API_with_EF.Models;
 
 namespace API_with_EF.DAL
 {
@@ -19,6 +19,6 @@ namespace API_with_EF.DAL
             return _dbContext.Fishes.OrderByDescending(fish => fish.Id).FirstOrDefault();
         }
 
-        pu
+      
     }
 }
